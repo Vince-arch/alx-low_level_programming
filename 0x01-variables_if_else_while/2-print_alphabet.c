@@ -1,11 +1,8 @@
 #include <stdio.h>
 
-
-
 /**
 * main - prints results of the while loop
 * Return: 0 is success
-
 */
 
 
