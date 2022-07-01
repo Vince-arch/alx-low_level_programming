@@ -23,7 +23,7 @@ int main(void)
 	if (n > 0)
 	printf("$d is positive");
 
-	else;
+	else
        	printf("$d is negative");
 
 	/* your code goes there */
