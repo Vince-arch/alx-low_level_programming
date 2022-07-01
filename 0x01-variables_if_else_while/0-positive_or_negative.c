@@ -34,12 +34,12 @@ int main(void)
 	else
 		if (int n > 0)
 		{
-		printf("\n %d is positive",rand())
+		printf("\n %d is positive",rand());
 		}
 		else
 			if (int n < 0)
 			{
-			printf("\n %d is negative",rand())
+			printf("\n %d is negative",rand());
 			}
 	return (0);
 
