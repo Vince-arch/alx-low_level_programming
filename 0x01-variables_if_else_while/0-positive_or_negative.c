@@ -27,17 +27,17 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 
 	/* your code goes there */
-	if (n=0)
+	if (int n = 0)
 	{
 	printf("\n %d is zero",rand());
 	}
 	else
-		if (n>0)
+		if (int n > 0)
 		{
 		printf("\n %d is positive",rand())
 		}
 		else
-			if (n<0)
+			if (int n < 0)
 			{
 			printf("\n %d is negative",rand())
 			}
