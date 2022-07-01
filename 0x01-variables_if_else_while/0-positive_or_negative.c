@@ -1,34 +1,45 @@
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h>
+#include <math.h>
 /* more headers goes there */
 
-/* betty style doc for function main goes there */
 
+
+/* betty style doc for function main goes there */
 /**
- * main - Entry point
- * Description: 'the program's description'
- * Return: Always 0 (Success)
- */
+*
+* main - Entry point
+* Description: 'the program's description
+*Return: Always 0 (Success)
+*/
+
 int main(void)
+
 {
 
-	int n;
+		int n;
+
 
 
 	srand(time(0));
 
 	n = rand() - RAND_MAX / 2;
 
-	if (n = 0)
-	printf("n= %d\n",n is zero);
-
-	else if (n > 0)
-	printf("%d" is positive);
-
-	else if (n < 0)
-	printf("%d" is negative);
-
 	/* your code goes there */
+	if (n=0)
+	{
+	printf("\n %d is zero",rand());
+	}
+	else
+		if (n>0)
+		{
+		printf("\n %d is positive",rand())
+		}
+		else
+			if (n<0)
+			{
+			printf("\n %d is negative",rand())
+			}
 	return (0);
+
 }
