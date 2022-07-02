@@ -9,7 +9,7 @@
 int main(void)
 
 {
-	
+
 	int i;
 	int j;
 	
@@ -17,13 +17,13 @@ int main(void)
 	for (i = 48; i <= 57; j++)
 
 	{
-		for (j=48; j <= 53; j++)
+		for (j = 48; j <= 53; j++)
 		{
 			if (j > i)
 			{
 			putchar(i);
 			putchar(j);
-			if (i!=56)
+			if (i != 56)
 
 			{
 				putchar(',');
