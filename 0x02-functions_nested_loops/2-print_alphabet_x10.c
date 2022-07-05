@@ -5,7 +5,7 @@
  *prints 10 times the alphabet in lowercase
  */
 
-int void print_alphabet_x10(void)
+void print_alphabet_x10(void)
 
 {
 	int i = 0;
