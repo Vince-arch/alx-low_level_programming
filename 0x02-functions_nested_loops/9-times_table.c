@@ -42,6 +42,8 @@ void times_table(void)
 			y++;
 
 		}
+		_putchar('\n');
+		x++;
 	}
 
 }
