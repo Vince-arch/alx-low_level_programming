@@ -3,7 +3,7 @@
 /**
 * _isupper - uppercase letters
 * @c: character to check
-*y Return: 0 or 1
+*Return: 0 or 1
 */
 
 int _isupper(int c)
@@ -13,4 +13,5 @@ int _isupper(int c)
 		return (1);
 	else
 		return (0);
+
 }
